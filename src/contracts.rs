@@ -140,7 +140,7 @@ fn LP(
     let msg = MsgCreateBalancerPool {
         sender: env.contract.address.to_string(),
         pool_params: Some(PoolParams {
-            swap_fee: String::from("0.005000000000000000"), //0.5% in sdk.Dec 18 places
+            swap_fee: String::from("0.000000000000000000"), //0% in sdk.Dec 18 places
             exit_fee: String::from("0"),
             smooth_weight_change_params: None,
         }),
